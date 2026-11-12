@@ -1,0 +1,17 @@
+asset = "^NSEI"       # nifty 50 index
+others = ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "ITC.NS", "LT.NS", "SUNPHARMA.NS", "MARUTI.NS"]
+start = "2007-09-17"
+end = "2026-11-01"
+
+fast = 50
+slow = 200
+cost = 0.001          # per trade, 10 basis points
+cash_rate = 0.0
+
+fasts = [5, 10, 20, 30, 50, 75, 100]
+slows = [20, 50, 100, 150, 200, 250, 300]
+train_years = 5
+
+n_boot = 2000
+block = 20
+seed = 7
